@@ -24,7 +24,7 @@
 - `codigo_rastreio` (Identificação única da entrega)
 - **Relacionamento**: Uma **Ordem de Serviço (OS)** tem **uma única entrega associada**.
 - 
- ![Image](https://github.com/user-attachments/assets/68265356-be04-4f8f-b114-619bc736c049)
+![Image](https://github.com/user-attachments/assets/7f5d5e98-fed1-451e-b3c8-a0862ff34035)
 
  postgresql rsss ;)
 
