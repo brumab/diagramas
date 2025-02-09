@@ -50,7 +50,7 @@ O modelo conceitual foi desenvolvido usando a ferramenta diagrams.net e pode ser
 1. Baixe ou clone este repositório:
 
 - 
-![Image](https://github.com/user-attachments/assets/7f5d5e98-fed1-451e-b3c8-a0862ff34035)
+![Image](https://github.com/user-attachments/assets/e4b52899-bebd-4011-9a9b-ab980df897e1)
 
  postgresql rsss ;)
 
