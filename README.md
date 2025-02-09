@@ -77,6 +77,6 @@ Caso tenha, vontade para contribuir! 💡
 - **Bruno Molina Souza**  
 Bruno Molina, Uma Pessoa com Deficiência Auditiva - PcD, curso de análise de dados,
 estudante do curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas. Unicesumar. 2024 - 2026
-- [GitHub](https://github.com/brumab) | [LinkedIn](https://www.linkedin.com/in/brumab1122/)
+- [GitHub](https://github.com/brumab) | [LinkedIn](https://www.linkedin.com/in/brumab1122/) | [cv](https://brumab.github.io/cur/)
 
 
