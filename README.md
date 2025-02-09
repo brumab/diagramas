@@ -1,28 +1,54 @@
-# diagramas
+# Sistema de Gerenciamento de Ordens de Serviço - Oficina Mecânica
 
-# 📌 Refinamento do Modelo Conceitual - Oficina Mecânica
+## Descrição
 
-## 🛠 Atualizações no Modelo Conceitual
+Este projeto foi desenvolvido como parte de um desafio de design de banco de dados. O objetivo é modelar e implementar um sistema para o gerenciamento de ordens de serviço em uma oficina mecânica. 
 
-### 🔹 Novas Entidades & Atributos
+## Objetivos do Projeto
 
-#### **Cliente**
+- **Cliente PJ e PF**: Implementar um modelo onde os clientes possam ser pessoas físicas (PF) ou jurídicas (PJ), mas nunca ambos.
+- **Formas de Pagamento**: Permitir que os clientes cadastrem múltiplas formas de pagamento.
+- **Entrega**: Associar cada ordem de serviço (OS) a um status de entrega e código de rastreio.
+
+## Modelo Conceitual
+
+O modelo conceitual foi desenvolvido usando a ferramenta diagrams.net e pode ser encontrado na pasta `diagramas`.
+
+## Atributos das Entidades
+
+### Cliente
 - `id_cliente` (PK)
 - `tipo_cliente` (ENUM: "PJ" ou "PF")
 - `CPF` (Apenas se PF)
 - `CNPJ` (Apenas se PJ)
 
-#### **Forma de Pagamento**
+### Forma de Pagamento
 - `id_pagamento` (PK)
 - `tipo_pagamento` (Ex: "Cartão", "PIX", "Boleto")
 - `detalhes_pagamento` (Informações adicionais)
-- **Relacionamento**: Um **Cliente** pode ter **várias formas de pagamento**.
 
-#### **Entrega**
+### Entrega
 - `id_entrega` (PK)
 - `status` (Ex: "Pendente", "A caminho", "Entregue")
-- `codigo_rastreio` (Identificação única da entrega)
-- **Relacionamento**: Uma **Ordem de Serviço (OS)** tem **uma única entrega associada**.
+- `codigo_rastreio` (Identificação única)
+
+### OS (Ordem de Serviço)
+- `id_os` (PK)
+- `data_emissao`
+- `valor`
+- `status`
+- `data_conclusao`
+
+## Relacionamentos
+
+1. **Cliente - Forma de Pagamento**: Um cliente pode ter várias formas de pagamento.
+2. **OS - Entrega**: Cada OS pode estar associada a uma única entrega.
+3. **Cliente - OS**: Uma OS está sempre associada a um único cliente.
+
+## Configuração
+
+1. Baixe ou clone este repositório:
+
 - 
 ![Image](https://github.com/user-attachments/assets/7f5d5e98-fed1-451e-b3c8-a0862ff34035)
 
